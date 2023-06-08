@@ -11,8 +11,7 @@ static std::random_device device;
 static std::mt19937_64 random_engine(device());
 static std::uniform_int_distribution<uint64_t> uniform_distribution;
 
-const uint32_t max_entities = 100000;
-
+const uint32_t max_entities = 1000;
 const uint8_t max_components = 255;
 
 static int component_counter = 0;
